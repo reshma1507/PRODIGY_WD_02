@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+    background-color: solid rgba(20, 16, 16, 0.915);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.stopwatch{
+    background-color: rgb(6, 239, 239);
+    padding: 20px 24px;
+    border-radius: 10px;
+
+}
+.timerDisplay{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.button{
+    margin-top: 20px;
+
+}
+.btn{
+    font-size: 20px;
+    background:none;
+    border: none;
+    color: solid red;
+    background-color: var(--clr);
+    padding: 12px 24px;
+    margin-inline: 10px;
+    border-radius: 9px;
+    cursor: pointer;
+
+}
